@@ -1,0 +1,33 @@
+*{
+  transition: all .5s;
+}
+body {
+  font-size: 15pt;
+  background: linear-gradient(40deg, #D79CDA, #8D35C4);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span{
+  border: 1px solid #fff;
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 75pt;
+  padding-bottom: 10px;
+  color: #FFFFFF;
+  font-weight: 300;
+}
+div{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+}
+div span:active{
+  background: #FFFFFF36;
+}
